@@ -95,6 +95,7 @@ fn merge_children( data: &Data ) -> proc_macro2::TokenStream
 				Fields::Unit =>
 				{
 					// Unit structs cannot merge any data.
+					//
 					quote!()
 				}
 			}

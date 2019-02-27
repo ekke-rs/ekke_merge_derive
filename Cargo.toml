@@ -13,8 +13,6 @@
 
 [dependencies]
 
-	# ekke_merge = { path = "../ekke_merge" }
-
 	proc-macro2 = "0.4.27"
 	syn         = "0.15.26"
 	quote       = "0.6.11"
