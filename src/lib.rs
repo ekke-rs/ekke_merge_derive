@@ -25,9 +25,10 @@ pub fn derive_merge( input: TokenStream ) -> TokenStream
 	{
 		// The generated impl.
 		//
-		impl #impl_generics ::ekke_merge::Merge for #name #ty_generics #where_clause
+		impl #impl_generics ekke_merge::Merge for #name #ty_generics #where_clause
 		{
-			fn merge( &mut self, other: Self ) -> MergeResult<()>
+
+			fn merge( &mut self, other: Self ) -> ekke_merge::MergeResult<()>
 			{
 				#merge_children
 				Ok(())
