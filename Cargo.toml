@@ -1,19 +1,14 @@
-[package]
-
-	name    = "ekke_merge_derive"
-	version = "0.1.0"
-	authors = [ "Naja Melan <najamelan@autistici.org>" ]
-	edition = "2018"
-
+# Auto-generated from "Cargo.yml"
+[dependencies]
+proc-macro2 = "0.4.27"
+quote = "0.6.11"
+syn = "0.15.26"
 
 [lib]
+proc-macro = true
 
-	proc-macro = true
-
-
-[dependencies]
-
-	proc-macro2 = "0.4.27"
-	syn         = "0.15.26"
-	quote       = "0.6.11"
-
+[package]
+authors = ["Naja Melan <najamelan@autistici.org>"]
+edition = 2018
+name = "ekke_merge_derive"
+version = "0.1.0"
